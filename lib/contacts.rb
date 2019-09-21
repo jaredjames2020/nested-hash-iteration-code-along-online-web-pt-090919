@@ -20,8 +20,8 @@ def remove_strawberry(contacts)
     if vv == [:favorite_ice_cream_flavors]
       :favorite_ice_cream_flavors.delete("strawberry")
       :favorite_ice_cream_flavors
-    end
-      #binding.pry
+      binding.pry
+      end
     end
   end
   
