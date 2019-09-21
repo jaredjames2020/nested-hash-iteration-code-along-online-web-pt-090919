@@ -16,7 +16,7 @@ require 'pry'
   
 def remove_strawberry(contacts)
   contacts.each do |k,v|
-    v.each do |vv, kk|
+    v.each do |vv|
       binding.pry
     if vv == [:favorite_ice_cream_flavors]
       binding.pry
