@@ -22,7 +22,7 @@ def remove_strawberry(contacts)
       #[:favorite_ice_cream_flavors]
       binding.pry
       end
-    end
+end
   
   
   
